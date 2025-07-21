@@ -1,10 +1,27 @@
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.head-line {
+    padding: 10px;
+    text-align: center;
+    border: 5px solid black;
+}   
 h1 {
     text-align: center;
     margin: 10px;
-    font-size: 25px;
+    font-size: 50px;
 }
 
-.social link {
-    line-height: 2;
-
+.social-link {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    gap:20px;
+    width: 70%;
 }
