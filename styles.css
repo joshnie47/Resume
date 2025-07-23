@@ -1,26 +1,38 @@
 body{
-    margin: 0;
+   
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    border: 5px solid black;
+    width: 80%;
+    padding: 0;
     
 }
 .head-line {
     padding: 10px;
     text-align: center;
-    border: 5px solid black;
+   
 }   
 h1 {
     text-align: center;
     margin: 10px;
     font-size: 50px;
+    padding: 0;
 }
 
 .social-link {
     display: flex;
-    list-style: none;
+    justify-content: center;
     padding: 0;
     margin: 0;
-    text-align: center;
-    gap:20px;
-    width: 70%;
+    gap:60px;
+    width: 1000px;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+.divider {
+    border-bottom: 2px solid black;
+    box-sizing: content-box;
 }
