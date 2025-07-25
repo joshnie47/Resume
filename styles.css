@@ -30,8 +30,22 @@ h1 {
 }
 h2{
     margin: 0;
-    padding: 0;
+    padding:0 50px;
 }
 .divider {
+    border: none;
     border-bottom: 2px solid black;
+    margin: 5px 50px;
+}
+.objective {
+    margin: 2px;
+    padding: 0 50px;
+}
+
+.education {
+    margin: 0;
+    padding: 0 50px;
+    list-style: none;
+    margin-bottom: 5px;
+
 }
