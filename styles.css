@@ -43,9 +43,20 @@ h2{
 }
 
 .education {
-    margin: 0;
-    padding: 0 50px;
-    list-style: none;
-    margin-bottom: 5px;
+    margin: 2px;
+    padding: 0 65px;
+        
+}
+
+.education > li {
+    margin-bottom: 8px;
+}
+
+.small-divider {
+    border-bottom: 2px solid black;
+    flex-direction: column-reverse;
+    margin: 2px;
+
 
 }
+
