@@ -54,9 +54,7 @@ h2{
 
 .small-divider {
     border-bottom: 2px solid black;
-    flex-direction: column-reverse;
-    margin: 2px;
-
-
+    margin: 3px 300px;
+    align-items: center;
 }
 
