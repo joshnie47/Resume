@@ -6,7 +6,7 @@ body{
     border: 5px solid black;
     width: 80%;
     padding: 0;
-    
+    margin-bottom: 500px;
 }
 .head-line {
     padding: 10px;
@@ -53,8 +53,28 @@ h2{
 }
 
 .small-divider {
-    border-bottom: 2px solid black;
-    margin: 5px 400px;
-    transform: rotate(90deg);
+    width: 2px;
+    height: 200px;
+    background-color: black;
+    margin-left: 410px;
+    margin-top: -200px;
+    margin-bottom: 80px;
 }
 
+.side {
+    margin-left: 370px;
+    margin-top: -297px;
+}
+
+.skills {
+    margin-left: 398px;
+    margin-top: 2px;
+}
+
+.skills > li {
+    margin-bottom: 8px;
+}
+
+.bold {
+    font-weight: bold;
+}
