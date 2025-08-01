@@ -43,8 +43,9 @@ h2{
 }
 
 .education {
+    display: flex;
     margin: 2px;
-    padding: 0 65px;
+    
         
 }
 
@@ -72,6 +73,7 @@ h2{
 }
 
 .skills > li {
+    display: flex;
     margin-bottom: 9px;
 }
 
