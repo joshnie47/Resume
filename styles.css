@@ -1,12 +1,16 @@
-body{
-   
+body{   
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    
+}
+.box {
     border: 5px solid black;
     width: 80%;
-    padding: 0;
-    margin-bottom: 500px;
+    padding: 0px;
+    margin: 100px 100px;
+    position: relative;
 }
 .head-line {
     padding: 10px;
@@ -44,39 +48,63 @@ h2{
 
 .education {
     display: flex;
-    margin: 2px;
-    
-        
-}
-
-.education > li {
-    margin-bottom: 24px;
-}
-
-.small-divider {
-    width: 2px;
-    height: 200px;
-    background-color: black;
-    margin-left: 410px;
-    margin-top: -230px;
-    margin-bottom: 165px;
-}
-
-.side {
-    margin-left: 370px; 
-    margin-top: -4px;
+    margin: 2px 50px 2px 50px;   
+    padding: 0 15px; 
 }
 
 .skills {
-    margin-left: 398px;
-    margin-top: -40px;
+    margin: 2px 30px 2px 50px;
+    padding: 0 15px;
 }
-
-.skills > li {
-    display: flex;
-    margin-bottom: 9px;
-}
-
 .bold {
     font-weight: bold;
 }
+
+.projects {
+    padding: 0 15px;
+    margin: 2px 50px 2px 50px;
+}
+
+#Certification {
+    padding: 0 20px;
+    margin: 2px 50px 2px 50px;
+}
+
+#sider {
+    width: 2px;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    transform: translate(449px,-125px);
+}
+
+#side {
+    margin: 2px 100px 2px 500px;
+    position: absolute;
+    top:600px;
+    
+}
+
+.side-topic {
+    padding: 0;
+    margin: 0;
+}
+
+#intern {
+    padding: 2px;
+    margin: 0;
+}
+
+.divider-last {
+    border-bottom: 2px solid black;
+    margin: 5px 50px;
+    transform: translate(0,-109px);
+}
+
+.last {
+    margin: 2px 50px 2px 50px;
+    padding: 0 ;
+    transform: translate(0,-100px);
+}
+
