@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{   
     display: flex;
     flex-direction: column;
@@ -8,8 +14,8 @@ body{
 .box {
     border: 5px solid black;
     width: 80%;
-    padding: 0px;
-    margin: 100px 100px;
+    padding: 0;
+    margin: 0px 100px 0px 100px;
     position: relative;
 }
 .head-line {
@@ -67,7 +73,8 @@ h2{
 
 #Certification {
     padding: 0 20px;
-    margin: 2px 50px 2px 50px;
+    margin: 2px 50px 0px 50px;
+    
 }
 
 #sider {
@@ -76,11 +83,13 @@ h2{
     background-color: black;
     display: flex;
     flex-direction: column;
-    transform: translate(449px,-125px);
+    transform: translate(455px,-133px);
+    padding: 0;
+    margin-bottom: 0;
 }
 
 #side {
-    margin: 2px 100px 2px 500px;
+    margin: 2px 100px 0px 500px;
     position: absolute;
     top:600px;
     
@@ -99,12 +108,13 @@ h2{
 .divider-last {
     border-bottom: 2px solid black;
     margin: 5px 50px;
-    transform: translate(0,-109px);
+    
 }
 
 .last {
     margin: 2px 50px 2px 50px;
     padding: 0 ;
-    transform: translate(0,-100px);
+    
 }
+
 
